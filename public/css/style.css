@@ -1,6 +1,12 @@
 body{
     background-color: pink;
     font-family: "Plus  Jakarta Sans",sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100lvh;
+}
+.container{
+    flex: 1;
 }
 
 .navbar{
